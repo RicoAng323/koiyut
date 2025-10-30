@@ -1,19 +1,21 @@
+
 body {
-    background-color: #e6e6e6; /* Warna kuning cerah */
-    font-family: Times New Roman, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
-    color: #6699ff; /* Warna teks utama (Biru Gelap) */
+    background-color: #e6e6e6; /* Warna abu-abu muda/krem */
+    font-family: 'Times New Roman', Times, serif; /* Pilihan font */
+    color: #333; /* Warna teks utama (hitam gelap agar mudah dibaca) */
+} /* <-- WAJIB ADA KURUNG PENUTUP DI SINI! */
 
 .Kartu-identitas-saya {
-    width: 300px;
-    margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-    padding: 20px;
-    background-color: white;
-    border-radius: 15px; /* Membuat sudut menjadi melengkung */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-align: center;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 .Kartu-identitas-saya img {
-   width: 150px;
-   border-radius: 50%;
+   width: 150px;
+   border-radius: 50%;
 }
