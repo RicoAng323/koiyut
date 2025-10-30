@@ -3,7 +3,7 @@ body {
     font-family: Times New Roman, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
     color: #6699ff; /* Warna teks utama (Biru Gelap) */
 
-.Kartu Identitas Saya {
+.Kartu identitas saya {
     width: 300px;
     margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
     padding: 20px;
@@ -14,6 +14,6 @@ body {
     
 }
 
-.Kartu Identitas Saya img {
+.Kartu identitas saya img {
    width: 150px;
    border-radius: 50%;
