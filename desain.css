@@ -1,21 +1,65 @@
-
+/* Body */
 body {
-    background-color: #e6e6e6; /* Warna abu-abu muda/krem */
-    font-family: 'Times New Roman', Times, serif; /* Pilihan font */
-    color: #333; /* Warna teks utama (hitam gelap agar mudah dibaca) */
-} /* <-- WAJIB ADA KURUNG PENUTUP DI SINI! */
-
-.Kartu-identitas-saya {
-    width: 300px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-align: center;
+    background-color: #e6e6e6;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
 }
 
-.Kartu-identitas-saya img {
-   width: 150px;
-   border-radius: 50%;
+/* Kartu identitas */
+.kartu-identitas-saya {
+    width: 300px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Gambar profil */
+.kartu-identitas-saya img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Nama dan teks */
+.kartu-identitas-saya h1 {
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+}
+
+.kartu-identitas-saya p {
+    font-size: 14px;
+    margin: 5px 0 10px 0;
+}
+
+/* Link Instagram */
+.kartu-identitas-saya a {
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #6699ff;
+}
+
+.kartu-identitas-saya a:hover {
+    text-decoration: underline;
+}
+
+/* Tombol */
+#sapaButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6699ff;
+    color: white;
+    cursor: pointer;
+}
+
+#sapaButton:hover {
+    background-color: #5577cc;
 }
