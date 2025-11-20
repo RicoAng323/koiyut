@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistem Peminjaman Barang</title>
+    <link rel="stylesheet" href="style.css">
+    <header class="top"></header>
+</head>
+<body>
+
+    <h1>Peminjaman Barang TU</h1>
+
+    <form id="pinjamForm">
+        <label>Nama:</label>
+        <input type="text" id="nama" required><br><br>
+
+        <label>Kelas:</label>
+        <select id="kelas"></select><br><br>
+
+        <label>Barang:</label>
+        <select id="barang"></select><br><br>
+
+        <button type="submit">Pinjam</button>
+    </form>
+
+    <h2>Daftar Peminjaman</h2>
+
+    <table id="tablePeminjaman">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Kelas</th>
+                <th>Barang</th>
+                <th>Status</th>
+                <th>Tanggal</th>
+                <th>Jam</th>
+                <th>Aksi</th>
+
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
